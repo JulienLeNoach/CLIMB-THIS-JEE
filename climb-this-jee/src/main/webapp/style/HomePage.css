@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+#presentation{
+    text-align: center;
+}
+
+
+#difficulty{
+	/*height:90%;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;    
+    overflow: hidden;
+    padding:25px;
+    
+}
+
+#difficulty p {
+text-align:center;
+}
+
+#difficulty  #title {
+font-size:30px;
+font-weight:bolder;
+margin-bottom: 60px;
+}
+
+#difficulty  #resume {
+width: 475px;
+text-align: justify;
+padding: 25px;}
+
+
+
+#information{
+width: 600px;
+display: flex;
+justify-content: space-evenly;
+border:2px solid gray;
+border-radius: 15px;
+align-items: center;
+
+}
+
+
+
+#information li{
+  height: 35px;
+  width: 100px;
+  margin: 10px 0 10px 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  list-style-type: none;
+  
+ 
+}
+
+#information li:nth-child(6){
+    box-shadow: 3px 3px 6px yellow;
+    border-left: solid yellow 10px;
+}
+#information li:nth-child(5){
+    box-shadow: 3px 3px 6px green;
+    border-left: solid green 10px;
+}
+#information li:nth-child(4){
+    box-shadow: 3px 3px 6px blue;
+    border-left: solid blue 10px;
+}
+#information li:nth-child(3){
+    box-shadow: 3px 3px 6px red;
+    border-left: solid red 10px;
+}
+#information li:nth-child(2){
+    box-shadow: 3px 3px 6px brown;
+    border-left: solid brown 10px;
+}
+#information li:nth-child(1){
+    box-shadow: 3px 3px 6px black;
+    border-left: solid black 10px;
+}
+
+
+#difficulty img{
+	border-radius:50%;
+	height:500px;
+	width:500px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	
+}

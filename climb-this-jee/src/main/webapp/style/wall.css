@@ -1,0 +1,13 @@
+.mainContent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+form{
+	border: #000 1px solid;
+	margin: 10px;
+	padding: 10px;
+}

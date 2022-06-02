@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Rubik;
+}
+
+body{
+	background: #1b1b1b;
+	color:white;
+	height: 100vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	/* flex-direction: column;
+  	background-image :  url('logo-climb-this.png');
+  	background-position: center;
+  	background-size: 90%;
+  	background-repeat:no-repeat;
+	background-position:top 130% left 240%; */
+}
+
+form{
+	border: solid #b1b1b1 1px;
+	text-align: center;
+	padding: 15px;
+	border: solid 1px #b1b1b1;
+}
+
+p{
+	margin: 10px;
+}
+
+.label-form p{
+	margin: 10px;
+}
+
+input:focus {
+     outline:  none;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+}
+
+.btn input{
+	height: 23px;
+	width: 150px;
+	margin: 10px;
+}

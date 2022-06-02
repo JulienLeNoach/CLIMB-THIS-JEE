@@ -1,0 +1,17 @@
+.contentAlbum{
+	display: flex;
+}
+
+.album{
+	margin: 5px;
+}
+
+.album button{
+	border: none;
+	background: none
+}
+
+.album img{
+	width: 150px;
+	height: 150px;
+}
